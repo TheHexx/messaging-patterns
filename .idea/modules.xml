@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/messaging-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/messaging-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/servicea/servicea.iml" filepath="$PROJECT_DIR$/.idea/modules/servicea/servicea.iml" group="servicea" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/servicea/servicea_main.iml" filepath="$PROJECT_DIR$/.idea/modules/servicea/servicea_main.iml" group="servicea" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/servicea/servicea_test.iml" filepath="$PROJECT_DIR$/.idea/modules/servicea/servicea_test.iml" group="servicea" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serviceb/serviceb.iml" filepath="$PROJECT_DIR$/.idea/modules/serviceb/serviceb.iml" group="serviceb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serviceb/serviceb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/serviceb/serviceb_main.iml" group="serviceb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serviceb/serviceb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/serviceb/serviceb_test.iml" group="serviceb" />
+    </modules>
+  </component>
+</project>
