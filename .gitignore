@@ -1,3 +1,6 @@
+.gradle
 servicea/build/
+servicea/.gradle
 serviceb/build/
+serviceb/.gradle
 
