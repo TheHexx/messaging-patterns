@@ -3,4 +3,5 @@ servicea/build/
 servicea/.gradle
 serviceb/build/
 serviceb/.gradle
+.idea/
 

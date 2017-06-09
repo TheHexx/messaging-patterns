@@ -1,11 +1,7 @@
 package servicea;
 import static spark.Spark.*;
 
-interface Restful {
-    public void runOnPort(int port);
-}
-
-class ServiceASparkApi implements Restful {
+public class ServiceASparkApi implements Restful {
 
     public void runOnPort(int p) {
         port(p);
