@@ -2,7 +2,7 @@ package servicea;
 
 public class App {
     public static void main(String[] args) {
-        ServiceA serviceA = new ServiceA(new ServiceASparkApi());
-        serviceA.runOnPort(8005);
+        ServiceAHttpApi api = new ServiceAHttpApi(new ServiceA(), new ApiConfiguration());
+        api.start();
     }
 }
