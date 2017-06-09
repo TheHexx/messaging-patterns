@@ -30,10 +30,10 @@ public class ServiceAHttpApi {
         });
 
         server.post("/resource", (req,res) -> {
-            String resourceId;
+            UUID resourceId;
             ServiceAResource obj = gson.fromJson(req.body(),ServiceAResource.class);
             resourceId = service.createResource(obj);
-            res.header("Location","/resource/" + resourceId);
+            res.header("Location","/resource/" + resourceId.toString());
             res.status(201);
             return "";
         });

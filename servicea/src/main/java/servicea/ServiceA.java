@@ -24,10 +24,10 @@ public class ServiceA{
         return hashMap.get(resourceId);
     }
 
-    public String createResource(ServiceAResource resource){
+    public UUID createResource(ServiceAResource resource){
         UUID newId = UUID.randomUUID();
         hashMap.put(newId,resource);
-        return newId.toString();
+        return newId;
     }
 
 }
