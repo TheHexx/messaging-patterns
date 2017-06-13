@@ -3,7 +3,7 @@ package servicea;
 /**
  * Created by technologydesign3 on 09/06/2017.
  */
-public class ServiceAResource {
+class ServiceAResource {
 
    private String contents;
 
